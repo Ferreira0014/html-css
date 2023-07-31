@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            padding: 8px;
+            font-weight: bolder;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .nome {
+            background-color: blue;
+        }
+
+        .profissão {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissão">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Jesiel</td>
+            <td>M</td>
+            <td>55</td>
+            <td>Promotor de empréstimo</td>
+        </tr>
+        <tr>
+            <td>Vannuza</td>
+            <td>F</td>
+            <td>43</td>
+            <td>Gestora de RH</td>
+        </tr>
+        <tr>
+            <td>Jennifer Elen</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Desginer</td>
+        </tr>
+        <tr>
+            <td>John Wesley</td>
+            <td>M</td>
+            <td>14</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>Jhulia Victoria</td>
+            <td>F</td>
+            <td>13</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+</body>
+</html>
